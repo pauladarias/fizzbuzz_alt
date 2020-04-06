@@ -10,5 +10,8 @@ describe 'fizzbuzz' do
 	it 'return "fizzbuzz" when number is 15' do
 		expect(15.fizzbuzz).to eq 'fizzbuzz'
 	end
+	it 'return number if any other number' do 
+		expect(53.fizzbuzz).to eq 53
+	end 
 
 end 
